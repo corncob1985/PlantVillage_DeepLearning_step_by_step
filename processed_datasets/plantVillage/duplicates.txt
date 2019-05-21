@@ -1,0 +1,12 @@
+Orange___Haunglongbing_(Citrus_greening)	UF.Citrus_HLB_Lab 1217.JPG,UF.Citrus_HLB_Lab 1216.JPG	UF.Citrus_HLB_Lab 1217.JPG
+Orange___Haunglongbing_(Citrus_greening)	UF.Citrus_HLB_Lab 1137.JPG,UF.Citrus_HLB_Lab 1136.JPG	UF.Citrus_HLB_Lab 1137.JPG
+Orange___Haunglongbing_(Citrus_greening)	UF.Citrus_HLB_Lab 0094.JPG,UF.Citrus_HLB_Lab 0095.JPG	UF.Citrus_HLB_Lab 0094.JPG
+Orange___Haunglongbing_(Citrus_greening)	UF.Citrus_HLB_Lab 9991.JPG,UF.Citrus_HLB_Lab 9992.JPG	UF.Citrus_HLB_Lab 9991.JPG
+Orange___Haunglongbing_(Citrus_greening)	UF.Citrus_HLB_Lab 9851.JPG,UF.Citrus_HLB_Lab 9852.JPG	UF.Citrus_HLB_Lab 9851.JPG
+Orange___Haunglongbing_(Citrus_greening)	UF.Citrus_HLB_Lab 1041.JPG,UF.Citrus_HLB_Lab 1042.JPG	UF.Citrus_HLB_Lab 1041.JPG
+Tomato___Tomato_Yellow_Leaf_Curl_Virus	UF.GRC_YLCV_Lab 01389.JPG,UF.GRC_YLCV_Lab 01388.JPG	UF.GRC_YLCV_Lab 01389.JPG
+Tomato___Tomato_Yellow_Leaf_Curl_Virus	UF.GRC_YLCV_Lab 01661.JPG,UF.GRC_YLCV_Lab 01662.JPG	UF.GRC_YLCV_Lab 01661.JPG
+Tomato___Tomato_Yellow_Leaf_Curl_Virus	UF.GRC_YLCV_Lab 01407.JPG,UF.GRC_YLCV_Lab 01408.JPG	UF.GRC_YLCV_Lab 01407.JPG
+Corn_(maize)___healthy	R.S_HL 0601 copy 3.jpg,R.S_HL 0601 copy 2.jpg	R.S_HL 0601 copy 3.jpg
+Cherry_(including_sour)___Powdery_mildew	FREC_Pwd.M 0323.JPG,FREC_Pwd.M 0324.JPG	FREC_Pwd.M 0323.JPG
+Cherry_(including_sour)___Powdery_mildew	FREC_Pwd.M 0516.JPG,FREC_Pwd.M 0515.JPG	FREC_Pwd.M 0516.JPG
