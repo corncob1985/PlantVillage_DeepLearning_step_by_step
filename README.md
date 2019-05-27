@@ -36,9 +36,9 @@ The planned structure of project is showing below, right now I only finished the
 
 |     |    |    |--- plantVillage_map
 
-|     |    |    |    |--- Apple_Apple_scab.csv
+|     |    |    |    |--- Apple___Apple_scab.csv
 
-|     |    |    |    |--- Tomato_healthy.csv
+|     |    |    |    |--- Tomato___healthy.csv
 
 |     |--- processed_datasets
 
@@ -46,13 +46,17 @@ The planned structure of project is showing below, right now I only finished the
 
 |     |    |    |--- 80-20
 
+|     |    |    |    |--- class.txt
+
 |     |    |    |    |--- train_*.txt
 
 |     |    |    |    |--- test_*.txt 
 
-|     |    |    |--- leaf-map.json
+|     |    |    |--- leaf-map-1to1.json
 
 |     |    |    |--- duplicates.txt
+
+|     |    |    |--- *.pickle
 
 3  The prerequisite of hardware and software
 
