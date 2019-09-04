@@ -1,62 +1,14 @@
 1  The goal of this project
 
-This project is trying to record every detail in the process of building a sucessful deep learning model. All of the analysis are based on PlantVillage dataset (https://github.com/salathegroup/plantvillage_deeplearning_paper_dataset).
+This project is trying to record every detail in the process of building and deploying a sucessful deep learning model by popular deep learning libraries(keras, fastai). All of the analysis are based on PlantVillage dataset (https://github.com/salathegroup/plantvillage_deeplearning_paper_dataset).
 
 2  The structure of this project
 
-The planned structure of project is showing below, right now I only finished the dataset_split.ipynb part, in which I try to get some insight of the PlantVillage dataset, and make the train/test set split with and without consideration of class imbalanced problem, which is ignored in the original publication (Mohanty SP, Hughes DP, Salathé M. Using deep learning for image-based plant disease detection. Front Plant Sci 2016; 7:1419.). Next, I will use classic Convolution Neural Network (CNN) architechture, such as AlexNet, VGG 16/19, Xception and ResNet50 to train the plant disease model. For learning rate is one of the most important hyperparameter in deep learning, and I will take advantage of the most advanced strategies to figure out the optimal value and optimal traing process, such as differential learning rates, cyclical learning rates, Cosine annealing, stochasitic gradient descent with warm restarts, and so on.
-
-|--- PlantVillage_DeepLearning_step_by_step
-
-|     |--- pdd_AlexNet.ipynb (coming soon ...)
-
-|     |--- pdd_VGGNet16.ipynb (coming soon ...)
-
-|     |--- pdd_VGGNet19.ipynb (coming soon ...)
-
-|     |--- pdd_Xception.ipynb (coming soon ...)
-
-|     |--- pdd_ResNet50.ipynb (coming soon ...)
-
-|     |--- dataset_split.ipynb
-
-|     |--- raw_datasets
-
-|     |    |--- images
-
-|     |    |    |--- plantVillage
-
-|     |    |    |    |--- Apple___Apple_scab
-
-|     |    |    |    |    |--- *.jpg
-
-|     |    |    |    |--- Tomato___healthy
-
-|     |    |--- csvs
-
-|     |    |    |--- plantVillage_map
-
-|     |    |    |    |--- Apple___Apple_scab.csv
-
-|     |    |    |    |--- Tomato___healthy.csv
-
-|     |--- processed_datasets
-
-|     |    |--- plantVillage
-
-|     |    |    |--- 80-20
-
-|     |    |    |    |--- class.txt
-
-|     |    |    |    |--- train_*.txt
-
-|     |    |    |    |--- test_*.txt 
-
-|     |    |    |--- leaf-map-1to1.json
-
-|     |    |    |--- duplicates.txt
-
-|     |    |    |--- *.pickle
+The whole project can be divided into four parts:
+data preprocessing -- filter out duplicated images, showing some statstics of the dataset, split the dataset into training set, validation set and testing set (for keras and fastai libraties, just keep .csv files with the image relative path and label is OK; for caffe, need to build a LMDB database to store image matrice) 
+disease model training -- by transfer learning from pre-trained models on ImageNet dataset
+model visulization -- take Grad-CAM to show the most activated parts of the orginal image in order to tell which part lets the model make the final decisions
+model deployment -- take Apache2.4, flask, mod_wsgi and redis to deploy the plant disease model (https://www.pyimagesearch.com/2018/02/05/deep-learning-production-keras-redis-flask-apache/)
 
 3  The prerequisite of hardware and software
 
