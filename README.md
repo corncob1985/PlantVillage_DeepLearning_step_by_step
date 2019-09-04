@@ -5,9 +5,9 @@ This project is trying to record every detail in the process of building and dep
 2  The structure of this project
 
 The whole project can be divided into four parts:
-data preprocessing -- filter out duplicated images, showing some statstics of the dataset, split the dataset into training set, validation set and testing set (for keras and fastai libraties, just keep .csv files with the image relative path and label is OK; for caffe, need to build a LMDB database to store image matrice) 
-disease model training -- by transfer learning from pre-trained models on ImageNet dataset
-model visulization -- take Grad-CAM to show the most activated parts of the orginal image in order to tell which part lets the model make the final decisions
+data preprocessing -- filter out duplicated images, showing some statstics of the dataset, split the dataset into training set, validation set and testing set (for keras and fastai libraties, just keep .csv files with the image relative path and label is OK; for caffe, need to build a LMDB database to store image matrice);
+disease model training -- by transfer learning from pre-trained models on ImageNet dataset;
+model visulization -- take Grad-CAM to show the most activated parts of the orginal image in order to tell which part lets the model make the final decisions;
 model deployment -- take Apache2.4, flask, mod_wsgi and redis to deploy the plant disease model (https://www.pyimagesearch.com/2018/02/05/deep-learning-production-keras-redis-flask-apache/)
 
 3  The prerequisite of hardware and software
